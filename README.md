@@ -10,6 +10,12 @@ There are two programs:
 
 For each of the programs, first open and run RT_xxx.vi and then run PC_xxx.vi. Make sure that the ip address in the PC_xxx.vi matches with the ip address of the Real-Time system.
 
+### Features
+- Set the offset and multiplier for each measurement channel.
+- Save screenshots of waveforms automatically.
+- Saves and retreives configuration settings automatically from a JSON file.
+- Save waveform data of all channels as .csv file with the click of a button!
+
 ### VIPM Addons required
 - [STM Messaging](https://www.vipm.io/package/ni_lib_stm/) 
 - [SEH - Structured Error Handler](https://www.vipm.io/package/ni_lib_seh/)
