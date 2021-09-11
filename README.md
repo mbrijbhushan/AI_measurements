@@ -11,6 +11,8 @@ There are two programs:
 For each of the programs, first open and run RT_xxx.vi and then run PC_xxx.vi. Make sure that the ip address in the PC_xxx.vi matches with the ip address of the Real-Time system.
 
 ### Features
+- 16 channels of AI voltage from NI 9205 (differential), and 16 channels of AI current from NI 9208.
+- Signal conditioning for the AI voltage signals using moving average filters.
 - Set the offset and multiplier for each measurement channel.
 - Save screenshots of waveforms automatically.
 - Saves and retreives configuration settings automatically from a JSON file.
