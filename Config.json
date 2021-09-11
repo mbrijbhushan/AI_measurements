@@ -7,8 +7,9 @@
     "NI9205 Multiplier":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
   },
   "NI9208 Offset":{"NI9208 Offset":[0,0,0,0,0]},
-  "NI9208 Multiplier":{"NI9208 Multiplier":[1e6,1e6,1e6,1e6,1e6]},
+  "NI9208 Multiplier":{
+    "NI9208 Multiplier":[1000000,1000000,1000000,1000000,1000000]
+  },
   "Apply Offset?":true,
   "Apply Multiplier?":true
-}
 }
