@@ -1,0 +1,64 @@
+{
+  "Controller Gains":{
+    "Z-direction":{"Kp":0,"Ki":0,"fLPF":0},
+    "ThX-direction":{"Kp":0,"Ki":0,"fLPF":0},
+    "ThY-direction":{"Kp":0,"Ki":0,"fLPF":0},
+    "Bow-direction":{"Kp":0,"Ki":0,"fLPF":0},
+    "Tor-direction":{"Kp":0,"Ki":0,"fLPF":0}
+  },
+  "Reference Generation":{
+    "Reference Location":"Pos Ref",
+    "Direction":"Z",
+    "Excitation Mode":"DC",
+    "Amplitude":0,
+    "Frequency [Hz]":0,
+    "PosRef Offsets":{"Z":0,"ThX":0,"ThY":0,"Bow":0,"Tor":0},
+    "Inc Offset (PosRef)":{
+      "Step":0,
+      "Arrow Up":false,
+      "Arrow Down":false
+    }
+  },
+  "RT Display Reader Loop Time [us]":2000,
+  "Sensor Gains [um/V]":{
+    "G_SE":0,
+    "G_NE":0,
+    "G_NW":0,
+    "G_SW":0,
+    "G_CI":0
+  },
+  "Amplifier Gains [V/V]":{
+    "G_SE":0,
+    "G_NE":0,
+    "G_NW":0,
+    "G_SW":0,
+    "G_CO":0,
+    "G_CI":0
+  },
+  "Curr Sense Gain [mA/V]":{"G_CS":0},
+  "Sensor Offset  [mm]":{"X":1,"Y":1},
+  "Coord. Trans. Multipliers":{"Z":0,"Th":0},
+  "DSA Config Cluster":{
+    "DSA excitation specs":{
+      "Initial Freq. [Hz]":1,
+      "Final Freq. [Hz]":100,
+      "# pts. in interval":20,
+      "Samping Time [us]":0,
+      "Amplitude":3.00000000000000E-4,
+      "Offset [V]":0,
+      "Freq Units (F: rad/s, T: Hz)":true
+    },
+    "Cycle Specs":{
+      "Cycles To \nSettle (M)":1,
+      "Cycles To \nCalculate (N)":2
+    },
+    "Meas. TF params":{"Direction":"Z","Tras. Func.":"P"}
+  },
+  "Pos Zero Offsets [V]":{
+    "V_SE":0,
+    "V_NE":0,
+    "V_NW":0,
+    "V_SW":0,
+    "V_CI":0
+  }
+}

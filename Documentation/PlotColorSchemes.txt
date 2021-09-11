@@ -1,0 +1,39 @@
+Color schemes for plots: (Reference - https://stackoverflow.com/questions/56211675/get-colors-from-matplotlib-style)
+
+Primary palette - Matplotlib default palette
+default: cycler('color', ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
+	
+	RGB:
+	- Blue: 31,119,180
+	- Orange: 255,127,14
+	- Green: 44, 160, 44
+	- Red: 214,39,40
+	- Purple: 148,103,189
+	- Brown: 140,86,75
+
+
+
+Secondary palette - GGplots
+	ggplot: #E24A33, #348ABD, #988ED5, #777777, #FBC15E, #8EBA42, #FFB5B8
+
+	RGB:
+	- #E24A33 (RGB: 226, 74, 51) - red
+	- #348ABD (RGB: 52 ,138,189) - blue
+	- #978ed5 (RGB: 151,142,213) - green
+	- #777777 (RGB: 119,119,119) - gray
+	- #FBC15E (RGB: 251,193, 94) - yellow
+	- #8EBA42 (RGB: 142,186, 66) - purple
+	- #FFB5B8 (RGB: 255,181,183) - pink
+
+Final secondary pallete
+	https://colorbrewer2.org/#type=qualitative&scheme=Set1&n=9
+	(See screenshot as well in the same folder)
+
+	RGB:
+	- Red: 228,26,28
+	- Blue: 55,126,184
+	- Green: 77,175,74
+	- Purple: 152,78,163
+	- Orange: 255,127,0
+	- Brown: 166,86,40
+	- Pink: 247,129,191
