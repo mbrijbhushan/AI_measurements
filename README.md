@@ -12,7 +12,7 @@ For each of the programs, first open and run RT_xxx.vi and then run PC_xxx.vi. M
 
 ### VIPM Addons required
 - [STM Messaging](https://www.vipm.io/package/ni_lib_stm/) 
-- [SEH](https://www.vipm.io/package/ni_lib_seh/)
+- [SEH - Structured Error Handler](https://www.vipm.io/package/ni_lib_seh/)
 - [JKI State machine](https://www.vipm.io/package/jki_lib_state_machine/)
 - [JKI State machine objects](https://www.vipm.io/package/jki_statemachineobjects/)
 - [JSONtext](https://www.vipm.io/package/jdp_science_jsontext/)

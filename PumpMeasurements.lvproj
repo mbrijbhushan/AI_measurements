@@ -36,6 +36,7 @@
 			<Item Name="AIloopTimes.ctl" Type="VI" URL="../PC/PumpMeas/TypeDefs/AIloopTimes.ctl"/>
 			<Item Name="ApplyOffset.ctl" Type="VI" URL="../PC/PumpMeas/TypeDefs/ApplyOffset.ctl"/>
 			<Item Name="ApplyMultiplier.ctl" Type="VI" URL="../PC/PumpMeas/TypeDefs/ApplyMultiplier.ctl"/>
+			<Item Name="UIStateDefEnum.ctl" Type="VI" URL="../PC/PumpMeas/TypeDefs/UIStateDefEnum.ctl"/>
 		</Item>
 		<Item Name="Utility Libraries" Type="Folder">
 			<Item Name="Spectra.lvlib" Type="Library" URL="../Components_global/Spectra/Spectra.lvlib"/>
@@ -155,7 +156,6 @@
 				<Item Name="SEH Error Processor.vi" Type="VI" URL="/&lt;userlib&gt;/_SEH/Support VIs/SEH/SEH Error Processor.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="UIStateDefEnum.ctl" Type="VI" URL="../PC/AIchar/TypeDefs/UIStateDefEnum.ctl"/>
 			<Item Name="STMLoopState_enum.ctl" Type="VI" URL="../RT Target/PumpMeasurement/TypeDefs/STMLoopState_enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -239,8 +239,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="FuncGenParams.ctl" Type="VI" URL="../RT Target/Controller/TypeDefs/FuncGenParams.ctl"/>
-			<Item Name="SetRefLocEnum.ctl" Type="VI" URL="../RT Target/Controller/TypeDefs/SetRefLocEnum.ctl"/>
 			<Item Name="STMLoopState_enum.ctl" Type="VI" URL="../RT Target/PumpMeasurement/TypeDefs/STMLoopState_enum.ctl"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
