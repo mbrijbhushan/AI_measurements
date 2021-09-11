@@ -1,7 +1,7 @@
 {
   "RT Display Reader Loop Time [ms]":2,
   "NI9205 Offset":{
-    "NI9205 Offset":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    "NI9205 Offset":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
   },
   "NI9205 Multiplier":{
     "NI9205 Multiplier":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
@@ -13,4 +13,3 @@
   "Apply Offset?":true,
   "Apply Multiplier?":true
 }}
-}
